@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Badaboom;
+    src: url(../../assets/fonts/badaboom_bb/BADABB.TTF);
+}
+
+@font-face {
+    font-family: Avengeance Mightiest;
+    src: url(../../assets/fonts/avengeance_mightiest_avenger/AVENGEANCE_MIGHTIEST_AVENGER.otf);
+}
+
+@font-face {
+    font-family: Comic Geek;
+    src: url(../../assets/fonts/comic_geek_regular/Comic_Geek_Regular.ttf);
+}
+
+.header-logo {
+    width: 150px;
+}
+
+.parentnav.navbar-inverse {
+    background-color: #00C853;
+    border-color: #00C853;
+}
+
+.childnav.navbar-inverse {
+    background-color: #ffd600;
+    border-color: #ffd600;
+}
+
+.nav-icon-img {
+    height: 40px;
+}
+
+.nav-icon {
+    text-align: center;
+    color: #FFFFFF;
+}
+.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-icon-text {
+    font-family: "Avengeance Mightiest";
+}

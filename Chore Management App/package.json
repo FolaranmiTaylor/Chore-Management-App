@@ -1,0 +1,35 @@
+{
+  "name": "clean-titans-2.0-app",
+  "version": "1.0.0",
+  "description": "An app to teach kids responsibility.  Kids earn points by completing daily tasks. Points are awarded when parent confirms tasks are complete. Children can redeem rewards for comic books or parent approved rewards such as ice cream, tv time.",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "(cd client && yarn start)",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "(cd client && yarn build)",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "(cd client && yarn)"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "auth0-js": "^9.0.2",
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.0",
+    "firebase": "^4.7.0",
+    "jwks-rsa": "^1.2.1",
+    "jwt-decode": "^2.2.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
+    "path": "^0.12.7",
+    "react-router-dom": "^4.2.2",
+    "sequelize": "^4.26.0"
+  }
+}
